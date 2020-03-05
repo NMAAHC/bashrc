@@ -106,6 +106,13 @@ function nmaahcmm () {
 }
 export -f nmaahcmm
 
+# functions
+	# brew reinstall --HEAD bashrc
+function bashrc () {
+	brew reinstall bashrc
+}
+export -f bashrc
+
 	# make directories named after files
 function makedirfile () {
 	for file in *.*; do
