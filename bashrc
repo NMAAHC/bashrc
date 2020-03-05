@@ -100,18 +100,18 @@ alias treeL='tree -RapugD --si --du'
 alias sulbime='sublime'
 
 # functions
-	# brew reinstall --HEAD nmaahcmm
+	# brew reinstall nmaahcmm
 function nmaahcmm () {
 	brew reinstall nmaahcmm
 }
 export -f nmaahcmm
 
 # functions
-	# brew reinstall --HEAD bashrc
-function bashrc () {
+	# brew reinstall bashrc
+function nmaahcbashrc () {
 	brew reinstall bashrc
 }
-export -f bashrc
+export -f nmaahcbashrc
 
 	# make directories named after files
 function makedirfile () {
