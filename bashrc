@@ -100,16 +100,16 @@ alias treeL='tree -RapugD --si --du'
 alias sulbime='sublime'
 
 # functions
-	# brew reinstall nmaahcmm
+	# brew install HEAD nmaahcmm
 function nmaahcmm () {
-	brew reinstall nmaahcmm
+	brew install --HEAD nmaahcmm
 }
 export -f nmaahcmm
 
 # functions
-	# brew reinstall bashrc
+	# brew install HEAD bashrc
 function nmaahcbashrc () {
-	brew reinstall bashrc
+	brew install --HEAD bashrc
 }
 export -f nmaahcbashrc
 
