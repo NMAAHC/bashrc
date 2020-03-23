@@ -1,0 +1,30 @@
+# set bashrc to read:
+# if [ -f ~/.bashrc_alias]; then
+# source ~/.bashrc_alias
+# fi
+
+# new aliases
+alias ll='ls -lahG'
+alias ls='ls -1'
+alias home='cd ~'
+alias up='cd ..'
+alias h='history'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# command option aliases
+alias mv='mv -iv'
+alias cp='cp -iv'
+alias rm='rm -iv'
+alias df='df -h'
+alias du='du -h'
+alias mkdir='mkdir -p'
+alias sublime='open -a "Sublime Text"'
+alias textedit='open -a TextEdit'
+alias diffy='diff -y --suppress-common-lines --width=250'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias brewUp='brew update && brew upgrade && brew doctor'
+alias treeL='tree -RapugD --si --du'
+
+# typo aliases
+alias sulbime='sublime'
