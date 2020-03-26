@@ -16,12 +16,6 @@ if [ -f ~/.bashrc_functions ]; then
 source ~/.bashrc_functions
 fi
 
-# create symlink so that .bashrc is linked to your bashrc file installed by hombrew
-# source /usr/local/bin/bashrc
-ln -s /usr/local/bin/bashrc ~/.bashrc
-ln -s /usr/local/bin/bashrc_alias ~/.bashrc_alias
-ln -s /usr/local/bin/bashrc_colors ~/.bashrc_colors
-ln -s /usr/local/bin/bashrc_functions ~/.bashrc_functions
 
 MYNAME='NMAAHC Media Conservation'
 export MYNAME
@@ -39,6 +33,13 @@ PROMPT_COMMAND=print_before_the_prompt
 export PS1="\[$BICyan\]≈:≈\[${Color_Off}\] "
 
 export LESS='-MN'
+
+# create symlink so that .bashrc is linked to your bashrc file installed by hombrew
+# source /usr/local/bin/bashrc
+ln -s /usr/local/bin/bashrc ~/.bashrc
+ln -s /usr/local/bin/bashrc_alias ~/.bashrc_alias
+ln -s /usr/local/bin/bashrc_colors ~/.bashrc_colors
+ln -s /usr/local/bin/bashrc_functions ~/.bashrc_functions
 
 # must use double quotes here so Unix expands ${PATH} and doesn't read it as a directory
 # default OS X PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
