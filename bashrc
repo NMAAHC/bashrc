@@ -10,11 +10,11 @@ if [ -f ~/.bashrc_colors ]; then
 source ~/.bashrc_colors
 fi
 
-if [ -f ~/.bashrc_alias]; then
+if [ -f ~/.bashrc_alias ]; then
 source ~/.bashrc_alias
 fi
 
-if [ -f ~/.bashrc_functions]; then
+if [ -f ~/.bashrc_functions ]; then
 source ~/.bashrc_functions
 fi
 
