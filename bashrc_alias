@@ -25,6 +25,7 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias brewUp='brew update && brew upgrade && brew doctor'
 alias treeL='tree -RapugD --si --du'
+alias gpa='git-pull-all'
 
 # typo aliases
 alias sulbime='sublime'
