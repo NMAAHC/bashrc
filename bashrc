@@ -17,6 +17,7 @@ source ~/.bashrc_functions
 fi
 
 # create symlink so that .bashrc is linked to your bashrc file installed by hombrew
+# source /usr/local/bin/bashrc
 ln -s /usr/local/bin/bashrc ~/.bashrc
 ln -s /usr/local/bin/bashrc_alias ~/.bashrc_alias
 ln -s /usr/local/bin/bashrc_colors ~/.bashrc_colors
