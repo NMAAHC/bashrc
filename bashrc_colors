@@ -16,6 +16,16 @@ Purple='\e[0;35m'       # Purple
 Cyan='\e[0;36m'         # Cyan
 White='\e[0;37m'        # White
 
+# Bold High Intensity
+BIBlack='\e[1;90m'      # Black
+BIRed='\e[1;91m'        # Red
+BIGreen='\e[1;92m'      # Green
+BIYellow='\e[1;93m'     # Yellow
+BIBlue='\e[1;94m'       # Blue
+BIPurple='\e[1;95m'     # Purple
+BICyan='\e[1;96m'       # Cyan
+BIWhite='\e[1;97m'      # White
+
 # Bold
 BBlack='\e[1;30m'       # Black
 BRed='\e[1;31m'         # Red
@@ -55,16 +65,6 @@ IBlue='\e[0;94m'        # Blue
 IPurple='\e[0;95m'      # Purple
 ICyan='\e[0;96m'        # Cyan
 IWhite='\e[0;97m'       # White
-
-# Bold High Intensity
-BIBlack='\e[1;90m'      # Black
-BIRed='\e[1;91m'        # Red
-BIGreen='\e[1;92m'      # Green
-BIYellow='\e[1;93m'     # Yellow
-BIBlue='\e[1;94m'       # Blue
-BIPurple='\e[1;95m'     # Purple
-BICyan='\e[1;96m'       # Cyan
-BIWhite='\e[1;97m'      # White
 
 # High Intensity backgrounds
 On_IBlack='\e[0;100m'   # Black

@@ -4,8 +4,6 @@
 # source ~/.bashrc
 # fi
 
-# set bashrc to read:
-
 if [ -f ~/.bashrc_colors ]; then
 source ~/.bashrc_colors
 fi
@@ -19,10 +17,10 @@ source ~/.bashrc_functions
 fi
 
 # create symlink so that .bashrc is linked to your bashrc file installed by hombrew
-# ln -s /usr/local/bin/bashrc ~/.bashrc
-# ln -s /usr/local/bin/bashrc_alias ~/.bashrc_alias
-# ln -s /usr/local/bin/bashrc_colors ~/.bashrc_colors
-# ln -s /usr/local/bin/bashrc_functions ~/.bashrc_functions
+ln -s /usr/local/bin/bashrc ~/.bashrc
+ln -s /usr/local/bin/bashrc_alias ~/.bashrc_alias
+ln -s /usr/local/bin/bashrc_colors ~/.bashrc_colors
+ln -s /usr/local/bin/bashrc_functions ~/.bashrc_functions
 
 MYNAME='NMAAHC Media Conservation'
 export MYNAME
