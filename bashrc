@@ -26,9 +26,9 @@ ln -s /usr/local/bin/bashrc_functions ~/.bashrc_functions
 MYNAME='NMAAHC Media Conservation'
 export MYNAME
 
-printf "${BRed}Hello ${MYNAME}!\n"
+printf "${BBlue}Hello ${MYNAME}!\n"
 printf "${BWhite}Be All That You Can Be Today!\n"
-printf "${BBlue}Let's Go!${Color_Off}\n"
+printf "${BRed}Let's Go!${Color_Off}\n"
 
 print_before_the_prompt () {
     printf "\n$BIYellow%s\n${Color_Off}" "$PWD"
