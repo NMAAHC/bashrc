@@ -1,6 +1,6 @@
-# set bashrc to read:
-# if [ -f ~/.bash_colors ]; then
-# source ~/.bash_colors
+# set zshrc to read:
+# if [ -f ~/.zsh_colors ]; then
+# source ~/.zsh_colors
 # fi
 
 
