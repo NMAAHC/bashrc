@@ -1,6 +1,6 @@
-# set bashrc to read:
-# if [ -f ~/.bashrc_alias]; then
-# source ~/.bashrc_alias
+# set zshrc to read:
+# if [ -f ~/.zshrc_alias]; then
+# source ~/.zshrc_alias
 # fi
 
 # new aliases
