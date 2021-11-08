@@ -1,6 +1,6 @@
-# set bashrc to read:
-# if [ -f ~/.bashrc_functions]; then
-# source ~/.bashrc_functions
+# set zshrc to read:
+# if [ -f ~/.zshrc_functions]; then
+# source ~/.zshrc_functions
 # fi
 
 
