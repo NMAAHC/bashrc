@@ -1,27 +1,27 @@
 # set .bash_profile to read:
 
-# if [ -f ~/.bashrc ]; then
-# source ~/.bashrc
+# if [ -f ~/.zshrc ]; then
+# source ~/.zshrc
 # fi
 
-if [ -f ~/.bashrc_colors ]; then
-source ~/.bashrc_colors
+if [ -f ~/.zshrc_colors ]; then
+source ~/.zshrc_colors
 fi
 
-if [ -f ~/.bashrc_alias ]; then
-source ~/.bashrc_alias
+if [ -f ~/.zshrc_alias ]; then
+source ~/.zshrc_alias
 fi
 
-if [ -f ~/.bashrc_functions ]; then
-source ~/.bashrc_functions
+if [ -f ~/.zshrc_functions ]; then
+source ~/.zshrc_functions
 fi
 
 # create symlink so that .bashrc is linked to your bashrc file installed by hombrew
-# source /usr/local/bin/bashrc
-ln -sfn /usr/local/bin/bashrc ~/.bashrc
-ln -sfn /usr/local/bin/bashrc_alias ~/.bashrc_alias
-ln -sfn /usr/local/bin/bashrc_colors ~/.bashrc_colors
-ln -sfn /usr/local/bin/bashrc_functions ~/.bashrc_functions
+# source /usr/local/bin/zshrc
+ln -sfn /usr/local/bin/zshrc ~/.bashrc
+ln -sfn /usr/local/bin/zshrc_alias ~/.zshrc_alias
+ln -sfn /usr/local/bin/zshrc_colors ~/.zshrc_colors
+ln -sfn /usr/local/bin/zshrc_functions ~/.zshrc_functions
 
 MYNAME='NMAAHC Media Conservation'
 export MYNAME
@@ -57,4 +57,4 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # shopt
-# shopt -s globstar
+shopt -s globstar
